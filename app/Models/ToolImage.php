@@ -25,7 +25,7 @@ class ToolImage extends Model
         if (! $this->image_path) {
             return null;
         }
-        if (filter_var($this->image_path, FILTER_VALIDATE_URL)) {
+        if (str_starts_with($this->image_path, 'http')) {
             return $this->image_path;
         }
 

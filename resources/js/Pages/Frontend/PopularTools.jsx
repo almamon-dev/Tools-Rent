@@ -77,7 +77,7 @@ export default function PopularTools({ tools }) {
                                 {/* Footer: Price and Button */}
                                 <div className="flex items-center justify-between border-t border-gray-100 dark:border-gray-800 pt-5">
                                     <div className="flex items-baseline gap-1">
-                                        <span className="text-[22px] font-extrabold text-[#10513D] dark:text-white">
+                                        <span className="text-[15px] font-extrabold text-[#10513D] dark:text-white">
                                             ${tool.price_per_day}
                                         </span>
                                         <span className="text-[#10513D] dark:text-gray-400 text-[14px] font-bold">

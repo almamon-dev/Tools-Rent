@@ -60,7 +60,7 @@ class Tool extends Model
     // Accessor: tool.first_image_url return
     public function getFirstImageUrlAttribute()
     {
-        $image = $this->images()->first();
+        $image = $this->images->first();
 
         if ($image) {
             return $image->url;
